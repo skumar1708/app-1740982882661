@@ -1,0 +1,1 @@
+{"name": "sound-maker-app", "version": "1.0.0", "description": "A simple and interactive sound maker app", "main": "server.js", "scripts": {"start": "node server.js"}, "dependencies": {"express": "^4.17.1", "body-parser": "^1.19.0", "mongoose": "^5.12.3", "dotenv": "^8.2.0"}, "author": "", "license": "ISC"}
