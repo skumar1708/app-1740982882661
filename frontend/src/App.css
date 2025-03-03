@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer {
+  background-color: #ff6347;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.sound-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  flex: 1;
+}
+
+.sound-button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sound-button.active {
+  background-color: #ff4500;
+}
+
+.sound-button:hover {
+  background-color: #ff4500;
+}
