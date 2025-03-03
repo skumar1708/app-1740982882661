@@ -1,0 +1,1 @@
+const express = require('express'); const { getSounds, uploadSound } = require('../controllers/soundController'); const router = express.Router(); router.get('/', getSounds); router.post('/upload', uploadSound); module.exports = router;
